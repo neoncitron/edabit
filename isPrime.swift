@@ -1,5 +1,4 @@
-
-func isPrime(_ num: Int) -> Bool{
+func isPrime(_ num: Int) -> Bool {
     guard num != 2 else { return true }
     guard num > 1 && num % 2 != 0 else { return false }
     
